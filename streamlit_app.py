@@ -3,7 +3,7 @@ import streamlit as st
 st.set_page_config(page_title="Calculadora LEC", layout="wide")
 st.title('Simulador do Lote Econômico de Compra')
 st.markdown('---')
-st.success("Sucesso")
+st.error("Erro")
 st.info('Fórmula: LEC = (2 * D * S/H)**1/2')
 st.subheader('Insira os dados aqui:')
 D = st.number_input('Demanda Atual (D):')
